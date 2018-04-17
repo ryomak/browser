@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/ryomak/browser/src/browser"
 
 func main() {
-	fmt.Println("vim-go")
+	browser.Browse("h")
 }
