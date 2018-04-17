@@ -1,7 +1,11 @@
 package main
 
-import "github.com/ryomak/browser/src/browser"
+import (
+	"flag"
+	"github.com/ryomak/browser/src/browser"
+)
 
 func main() {
-	browser.Browse("h")
+	flag.Parse()
+	browser.Browse(flag.Arg(0))
 }
