@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"io/ioutil"
 	"strings"
-	"github.com/ryomak/browser/datatype"
+	"github.com/ryomak/browser/src/datatype"
 )
 
 func Transmit(url string) (*datatype.Response, error) {
